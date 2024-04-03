@@ -1,5 +1,5 @@
 document.getElementById('buttonVersion').addEventListener('click', function () {
-  var html = document.querySelector('html'); // Corrigindo a seleção do elemento HTML
+  var element = document.querySelector('html'); // Corrigindo a seleção do elemento HTML
   var htmlClass = element.className;
 
   if (htmlClass === 'light') {
